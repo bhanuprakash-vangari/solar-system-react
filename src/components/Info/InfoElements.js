@@ -6,7 +6,7 @@ export const InfoContainer = styled.div`
   background-size: cover;
   overflow: hidden;
   width: 100%;
-  @media screen and (max-width: 411px) {
+  @media screen and (max-width: 450px) {
     
   }
 `;
@@ -18,7 +18,7 @@ export const InfoWrapper = styled.div`
   margin-left: 2rem;
   align-items: left;
   justify-content: left;
-  @media screen and (max-width: 411px) {
+  @media screen and (max-width: 450px) {
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -32,7 +32,7 @@ export const InfoTitle = styled.h1`
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   text-shadow: 2px 4px 16px #101010;
-  @media screen and (max-width: 411px){
+  @media screen and (max-width: 450px){
     font-size: 4rem;
   }
 `;
@@ -47,7 +47,7 @@ export const InfoStarName = styled.h4`
   font-family: "Poppins", sans-serif;
   text-shadow: 2px 4px 16px #101010;
 
-  @media screen and (max-width: 411px) {
+  @media screen and (max-width: 450px) {
     margin-top: -13rem;
     font-size: 1rem;
   }
@@ -61,7 +61,7 @@ export const InfoAge = styled.h5`
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   text-shadow: 2px 4px 16px #101010;
-  @media screen and (max-width: 411px) {
+  @media screen and (max-width: 450px) {
     font-size: 1rem;
   }
 `;
@@ -74,7 +74,7 @@ export const InfoDistance = styled.h6`
   font-weight: 300;
   font-family: "Poppins", sans-serif;
   text-shadow: 2px 4px 16px #101010;
-  @media screen and (max-width: 411px) {
+  @media screen and (max-width: 450px) {
     font-size: 1rem;
   }
 `;
@@ -87,7 +87,7 @@ export const InfoDescription = styled.p`
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   text-shadow: 2px 4px 8px #000;
-  @media screen and (max-width: 411px) {
+  @media screen and (max-width: 450px) {
     max-width: 350px;
     font-size: 0.8rem;
     line-height: 1.5rem;
