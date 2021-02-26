@@ -22,7 +22,7 @@ const Info = ({
   imageMobile,
 }) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const imageUrl = windowWidth > 411 ? image : imageMobile;
+  const imageUrl = windowWidth > 450 ? image : imageMobile;
 
   useEffect(() => {
     const handleWindowResize = () => {
